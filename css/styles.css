@@ -18,7 +18,34 @@ h1 {
   margin: 0 auto 0 auto;
 }
 
+h1.top-text{
+  width: 20rem;
+  height: 7rem;
+}
+
 h3 {
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted lightgray 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999e;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
 }
 
 .e-mail:before {
@@ -36,45 +63,45 @@ h3 {
   position: relative;
   padding-top: 100px;
   color: black;
+  height: 45rem;
 }
 
 .top-cloud {
   position: absolute;
   margin-right: 300 px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  left: 250px;
+  bottom: 30rem;
 }
+
 
 .hero-span {
   text-decoration: underline;
   font-weight: 150rem;
 }
-.profile{
-  
-}
 
-.profile-pic{
+.profile-pic {
   width: 20%;
 }
 
-.intro{
+.intro {
   height: 20vh;
+  width: 30%;
+  margin: auto;
 }
 .middle-container {
   position: relative;
-  width: 50%;
-  margin: auto;
+  width: 60%;
+  margin: 100px auto;
 }
 
 .skills-container {
   display: flex;
   flex-direction: column;
-  
 }
 
 .skill-row {
@@ -91,7 +118,50 @@ h3 {
   margin-right: 30px;
 }
 
+.contact-me{
+  margin-top: 20px;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
 .bottom-container {
+  background-color: #82cd47;
+  padding: 50px 0 20px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 10px 0;""
+}
+
+.btn-contact {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-contact:hover {
+  background: #30ec3b;
+  background-image: -webkit-linear-gradient(top, #30ec3b, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30ec3b, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30ec3b, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30ec3b, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30ec3b, #2bc4ad);
+  text-decoration: none;
 }
 
 .footer {
