@@ -74,21 +74,29 @@ h3 {
 .skills-container {
   display: flex;
   flex-direction: column;
+  
 }
 
 .skill-row {
   width: 50%;
-  margin: auto;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
 
 .skill-img {
-  width: 50%;
+  width: 25%;
   border-radius: 45%;
+  float: left;
+  margin-right: 30px;
 }
 
 .bottom-container {
 }
 
 .footer {
+  top: 20rem;
+  background-color: #379237;
   bottom: 20px;
+  height: 20vh;
 }
