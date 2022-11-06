@@ -10,50 +10,85 @@ body {
   background-color: #82cd47;
   text-align: center;
   color: whitesmoke;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 h1 {
-  width: 10%;
+  width: 15%;
   margin: 0 auto 0 auto;
 }
 
 h3 {
 }
 
-.hero-span {
-  text-decoration: underline;
+.e-mail:before {
+  content: attr(data-website) "\0040"attr(data-user);
+  unicode-bidi: bidi-override;
+  direction: rtl;
 }
 
 .wrapper {
-  position: relative;
+  margin: auto;
 }
 
 .top-container {
-    background-color: #F0FF42;
+  background-color: #f0ff42;
   position: relative;
   padding-top: 100px;
-}
-
-.middle-container {
-  background-color: red;
-  width: 200px;
-  height: 200px;
-}
-
-.bottom-container {
-  background-color: blue;
-  width: 200px;
-  height: 200px;
+  color: black;
 }
 
 .top-cloud {
   position: absolute;
   margin-right: 300 px;
   top: 50px;
-
 }
+
 .bottom-cloud {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.hero-span {
+  text-decoration: underline;
+  font-weight: 150rem;
+}
+.profile{
+  
+}
+
+.profile-pic{
+  width: 20%;
+}
+
+.intro{
+  height: 20vh;
+}
+.middle-container {
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+}
+
+.skill-img {
+  width: 50%;
+  border-radius: 45%;
+}
+
+.bottom-container {
+}
+
+.footer {
+  bottom: 20px;
 }
